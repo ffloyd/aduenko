@@ -28,7 +28,7 @@ gem 'jbuilder', '~> 1.2'
 
 # frontend-related gems
 gem 'bootstrap-sass'
-gem 'haml'
+gem 'haml-rails'
 
 group :doc do
   # bundle exec rake doc:rails generates the API under doc/api.
