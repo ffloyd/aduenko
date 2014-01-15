@@ -14,4 +14,10 @@
       $scope.results = data
       $scope.logs.push "Processing done. #{data.length} results."
       $scope.$apply()
+
+  $scope.selectResult = (ids) ->
+    $scope.logs.push "Sending selected result to server..."
+    Analyzer.selectPair ids[0], ids[1], ->
+      $scope.logs.push "Done!"
+      $scope.$apply()
 ]

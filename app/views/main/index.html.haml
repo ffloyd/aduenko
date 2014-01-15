@@ -20,7 +20,9 @@
           %span(ng-hide="pagesCount() == 0")({{currentResultPage + 1}}/{{pagesCount()}})
       .panel-body
         %ul
-          %li(ng-repeat="result in results | page:5:currentResultPage") {{result.text[0]}} ({{result.text[1]}})
+          %li(ng-repeat="result in results | page:5:currentResultPage")
+            {{result.text[0]}} ({{result.text[1]}})
+            %a(href="#" ng-click="selectResult(result.ids)") &lt; select this
       .panel-footer(style="min-height: 43px;")
         %button.btn.btn-xs.btn-default(ng-hide="currentResultPage == 0" ng-click="currentResultPage = currentResultPage - 1") &lt; Prev
         %button.btn.btn-xs.btn-default.pull-right(ng-hide="currentResultPage >= pagesCount() - 1" ng-click="currentResultPage = currentResultPage + 1") Next &gt;

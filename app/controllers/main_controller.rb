@@ -5,7 +5,7 @@ class MainController < ApplicationController
   def process_text
     result = []
     20.times do
-      result.push({indexes: [1, 1], text: ['ssssss', 'ddd']})
+      result.push({ids: [1, 1], text: ['ssssss', 'ddd']})
     end
 
     respond_to do |format|
@@ -14,5 +14,8 @@ class MainController < ApplicationController
   end
 
   def save_result
+    respond_to do |format|
+      format.json { render json: {result: "Ok!"} } 
+    end
   end
 end
