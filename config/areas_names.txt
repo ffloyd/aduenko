@@ -1,0 +1,25 @@
+24
+Control Theory & System Dynamics
+Continuous Optimization
+Location, Logistics, Transportation
+Metaheuristics
+Scheduling, Time Tabling & Project Management
+Production Management & Supply Chain Management
+Discrete Optimization, Geometry & Graphs
+Simulation, Stochastic Programming and Modeling
+Multiple Criteria Decision Making and Optimization
+Decision Analysis, Decision Support Systems, DEA and Performance Measurement
+Game Theory, Mathematical Economics
+Revenue Management
+Financial Modeling, Risk Management, Managerial Accounting
+Data Science, Business Analytics, Data Mining
+Energy / Environment and Climate
+OR in Industry and Software for OR
+Emerging Applications of OR
+OR in Natural Resources
+OR Education, History, Ethics
+OR in Health, Life Sciences & Sports
+OR for Developing Countries, Humanitarian Applications
+Artificial Intelligence, Fuzzy Systems
+Soft OR and Problem Structuring Methods
+Telecommunication, Networks and Social Networks

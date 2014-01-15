@@ -1,0 +1,179 @@
+178
+Scheduling
+Business Excellence in Logistics
+Optimization in Public Transport
+Maritime Transportation
+Matheuristics
+New Trends in Vehicle Routing
+Network Optimization
+Cutting and Packing
+Production and the Link with Supply Chains
+Transportation Planning
+Lot-sizing and Related Topics
+Scheduling under Resource Constraints
+Nonsmooth Optimization
+Commodities and Financial Modeling
+Data Mining in the Financial Sector
+Financial Mathematics and OR
+Fuzzy Sets and Soft Computing
+Game Theory and Logistics
+Energy, Environment and Climate
+OR in the Oil and Gas Sectors
+Decision Processes
+OR in Quality Management
+Mixed-Integer Non-Linear Programming
+Emerging Applications of Fat Tail Models in
+Game Theory and Social Networks
+Soft OR and Problem Structuring Methods
+Cooperative Game Theory
+DEA and Performance Measurement
+Computational Biology, Bioinformatics and
+Multicriteria Decision Making
+Simulation
+Stochastic Programming
+Revenue Management
+Metaheuristics
+Vehicle Routing and Logistics Optimization
+Transportation and Logistics
+Nonlinear Programming
+Optimal Control
+OR in Human Resources
+OR in Agriculture, Forestry and Fisheries
+Structured Optimization and Applications
+Iterative Methods for Economic Models
+Engineering Optimization
+Simulation in Management Accounting and
+Uncertainty and Perturbations in Optimization
+Pioneers in Operations Research
+DEA and Performance Measurement
+Supply Chain Planning
+Actuarial Sciences and Stochastic Calculus
+Forecasting
+OR in Water Management
+Emerging Aspects of Production Planning in
+Optimization for Sustainable Development
+Operations/Marketing Interface
+Machine Learning and its Applications
+Stochastic Modelling in Logistical Networks
+Combinatorial Optimization
+Geometric Clustering
+Hub Location
+Continuous Location
+Mathematical Programming
+Preference Learning
+Sustainable Transport Planning
+Graphs and Networks
+Timetabling and Rostering
+Vector and Set-Valued Optimization
+Long Term Financial Decisions
+Models of Embodied Cognition
+Emissions Trading and Energy
+OR and Real Implementations
+Innovative Software Tools for MCDA
+Boolean and Pseudo-Boolean Optimization
+Inventory Management
+Global Optimization
+Experimental Economics and Game Theory
+Long Term Planning in Energy, Environment
+Quantitative Approaches in Managerial and
+Project Management and Scheduling
+Variable Neighborhood Search
+Realistic Production Scheduling
+Linear and Conic Programming
+Convex Optimization
+Data Mining and Decision Making
+OR and Environmental Management
+Decision Support Systems
+Optimization and Data Mining
+OR for Sustainable Development
+Methodology of Societal Complexity
+Dynamic Programming
+Young People for System Theory, Optimization
+Advanced Inventory Control and Pricing
+Dynamical Systems and Game Theory
+OR Applications in the Automotive Industry
+Variational Inequalities and Bi-Level Problems
+Nonconvex Programming: Local and Global
+Simulation Methods in Finance
+Financial Optimization
+Numerical Methods in Finance
+Fuzzy Optimization - Systems, Networks and
+Data Mining in Early Warning Systems
+Software for OR/MS
+System Dynamics Modeling and Simulation
+Container Terminal Operations
+OR and Ethics
+Computational Statistics
+Health Care Management
+SD Modelling in Sustainable Development
+Information and Intelligent Systems
+OR and the Arts
+Simulation Based Decision Support
+Recent Advances in Earthquake Studies
+Occupational Heath & Wellbeing
+IBM Research Applications
+Combinatorial Optimization
+Discrete Optimal Control
+Facility Logistics
+Routing Problems
+Scheduling, Time Tabling & Project Manage-
+INFORMS MSOM Stream
+Stochastic Modeling / Applied Probability
+Discrete and Global Optimization
+Supply Chain Optimization
+Supply Chain Risk Management
+Decision Analysis, Decision Support Systems
+Game Theory, Solutions and Structures
+Energy Economics
+Biomass-based Supply Chains
+OR Applications in Industry
+Operational Research and Control Problems
+Defence and Security
+Emerging Applications in Game Theory
+Teaching OR/MS
+Medical Decision Making
+Humanitarian Logistics
+Patients Flows Models and Optimization
+Manufacturing and Warehousing
+Stochastic Modeling in Energy Planning
+New Frontiers for Little’s Law
+Emerging Applications in Portfolio Selection
+Copositive and Polynomial Optimization
+Location Analysis
+Supply Chains
+Dynamic Optimization
+Game Theory and Combinatorial Optimization
+Algorithm and Computational Design
+Policy Analytics
+OR and Maritime Studies
+Initiatives for OR Education
+MSOM iFORM Special Interest Group Stream
+Game Theoretical Network Models
+Humanitarian Operations Research
+Vehicle Routing and Scheduling with Environmental Considerations
+Stochastic Models in Reliability and Risk
+Optimization under Uncertainty
+Risk Management in Online Social Networks
+Recent Advances in Dynamics of Variational
+Multi-Objective Optimization
+OR and Climate Change
+Game Theory and Experimental Design
+OR in Sports
+Generalized Differentiation and Optimization
+Mathematical Methods for Decision Support
+Analytic Hierarchy Processes, Analytic Network
+Lot-sizing and Scheduling, Economic Order
+OR for Development and Developing Countries
+Algorithmic Decision Theory
+Sustainable Living: Cognitive, Social
+Demand, Pricing and Revenue Management
+OR/MS: Beyond Mathematics
+Stochastic Models for Service Operations
+OR in Military
+ROADEF/EURO challenge
+Operational Research and Quantitative Models
+Dynamical Systems and Mathematical
+Demand and Supply in Consumer Goods
+Education, and Social Policy
+Life Insurance, Risk Management & OR
+Optimization and Natural Sciences
