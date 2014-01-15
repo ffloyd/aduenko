@@ -15,18 +15,15 @@
   .col-md-4
     .panel.panel-default
       .panel-heading
-        %h3.panel-title Results ({{currentResult + 1}}/{{resultsCount}})
+        %h3.panel-title
+          Results &nbsp;
+          %span(ng-hide="pagesCount() == 0")({{currentResultPage + 1}}/{{pagesCount()}})
       .panel-body
-        %ol
-          %li Lorem ipsum dolor
-          %li Lorem ipsum dolor
-          %li Lorem ipsum dolor
-          %li Lorem ipsum dolor
-          %li Lorem ipsum dolor
-      .panel-footer
-        %button.btn.btn-xs.btn-default.pull-left &lt; Prev
-        %button.btn.btn-xs.btn-default.pull-right Next &gt;
-        %button.btn.btn-xs.btn-success.center-block Save
+        %ul
+          %li(ng-repeat="result in results | page:5:currentResultPage") {{result.text[0]}} ({{result.text[1]}})
+      .panel-footer(style="min-height: 43px;")
+        %button.btn.btn-xs.btn-default(ng-hide="currentResultPage == 0" ng-click="currentResultPage = currentResultPage - 1") &lt; Prev
+        %button.btn.btn-xs.btn-default.pull-right(ng-hide="currentResultPage >= pagesCount() - 1" ng-click="currentResultPage = currentResultPage + 1") Next &gt;
     .panel.panel-default
       .panel-heading
         %h3.panel-title Logs

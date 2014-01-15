@@ -1,8 +1,8 @@
 Aduenko::Application.routes.draw do
   root "main#index"
 
-  get "process_text" => 'main#process_text', method: :post
-  get "save_result" => 'main#save_result', method: :post
+  post "process_text" => 'main#process_text'
+  post "save_result" => 'main#save_result'
 
   # The priority is based upon order of creation: first created -> highest priority.
   # See how all your routes lay out with "rake routes".
