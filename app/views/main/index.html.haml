@@ -1,0 +1,29 @@
+.row
+  .col-md-8
+    .panel.panel-default
+      .panel-heading
+        %h3.panel-title Data Form
+      .panel-body
+        %form(role="form")
+          .form-group
+            %label(for="title") Title:
+            %input.form-control(type="text" name="title")
+          .form-group
+            %label(for="content") Content:
+            %textarea.form-control(name="content" rows="10")
+          %button.btn.btn-primary.pull-right(type="submit") Submit
+  .col-md-4
+    .panel.panel-default
+      .panel-heading
+        %h3.panel-title Result
+      .panel-body
+        %ol
+          %li Lorem ipsum dolor
+          %li Lorem ipsum dolor
+          %li Lorem ipsum dolor
+          %li Lorem ipsum dolor
+          %li Lorem ipsum dolor
+      .panel-footer
+        %button.btn.btn-xs.btn-default.pull-left &lt; Prev
+        %button.btn.btn-xs.btn-default.pull-right Next &gt;
+        %button.btn.btn-xs.btn-success.center-block Save
