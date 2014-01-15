@@ -1,21 +1,21 @@
-.row
+.row(ng-controller="MainCtrl")
   .col-md-8
     .panel.panel-default
       .panel-heading
         %h3.panel-title Data Form
       .panel-body
-        %form(role="form")
+        %form(role="form" ng-submit="processForm(title, content)")
           .form-group
             %label(for="title") Title:
-            %input.form-control(type="text" name="title")
+            %input.form-control(type="text" name="title" ng-model="title")
           .form-group
             %label(for="content") Content:
-            %textarea.form-control(name="content" rows="10")
+            %textarea.form-control(name="content" rows="10" ng-model="content")
           %button.btn.btn-primary.pull-right(type="submit") Submit
   .col-md-4
     .panel.panel-default
       .panel-heading
-        %h3.panel-title Result
+        %h3.panel-title Results ({{currentResult + 1}}/{{resultsCount}})
       .panel-body
         %ol
           %li Lorem ipsum dolor
@@ -27,3 +27,9 @@
         %button.btn.btn-xs.btn-default.pull-left &lt; Prev
         %button.btn.btn-xs.btn-default.pull-right Next &gt;
         %button.btn.btn-xs.btn-success.center-block Save
+    .panel.panel-default
+      .panel-heading
+        %h3.panel-title Logs
+      .panel-body
+        %ul.list-unstyled
+          %li(ng-repeat="entry in logs | reverse track by $index") {{entry}}
