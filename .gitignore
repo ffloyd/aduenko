@@ -18,3 +18,5 @@
 *.swp
 
 /bin/tool
+
+.idea
