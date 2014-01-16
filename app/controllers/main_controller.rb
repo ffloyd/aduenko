@@ -27,7 +27,7 @@ class MainController < ApplicationController
 
   def save_result
     IO.popen "#{Rails.root}/bin/tool --result", "r+" do |io|
-      io.write "#{params[:area_id]} #{params[:title_id]}"
+      io.write "#{params[:title]}###{params[:content]}###{params[:area_id]} #{params[:title_id]}"
       io.close_write
     end
 

@@ -4,13 +4,13 @@
       .panel-heading
         %h3.panel-title Data Form
       .panel-body
-        %form(role="form" ng-submit="processForm(title, content)")
+        %form(role="form" ng-submit="processForm(form.title, form.content)")
           .form-group
             %label(for="title") Title:
-            %input.form-control(type="text" name="title" ng-model="title")
+            %input.form-control(type="text" name="title" ng-model="form.title")
           .form-group
             %label(for="content") Content:
-            %textarea.form-control(name="content" rows="10" ng-model="content")
+            %textarea.form-control(name="content" rows="10" ng-model="form.content")
           %button.btn.btn-primary.pull-right(type="submit") Submit
   .col-md-6
     .panel.panel-default

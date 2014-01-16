@@ -2,6 +2,7 @@
   $scope.logs = []
   $scope.currentResultPage = 0
   $scope.results = []
+  $scope.form
 
   $scope.pagesCount = ->
     count = Math.floor($scope.results.length/5)
@@ -17,7 +18,7 @@
 
   $scope.selectResult = (ids) ->
     $scope.logs.push "Sending selected result to server..."
-    Analyzer.selectPair ids[0], ids[1], ->
+    Analyzer.selectPair $scope.form.title, $scope.form.content, ids[0], ids[1], ->
       $scope.logs.push "Done!"
       $scope.$apply()
 ]
