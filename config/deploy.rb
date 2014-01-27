@@ -4,7 +4,7 @@ lock '3.1.0'
 SSHKit.config.command_map[:whenever] = "bundle exec whenever"
 
 set :application, 'web_validator'
-set :repo_url, 'git@github.com:ffloyd/aduenko.git'
+set :repo_url, 'https://github.com/ffloyd/aduenko.git'
 
 # Default branch is :master
 # ask :branch, proc { `git rev-parse --abbrev-ref HEAD`.chomp }
@@ -28,7 +28,7 @@ set :use_sudo, false
 
 # Default value for linked_dirs is []
 # set :linked_dirs, %w{bin log tmp/pids tmp/cache tmp/sockets vendor/bundle public/system}
-set :linked_dirs, %w{log tmp/pids tmp/cache tmp/sockets vendor/bundle public/system}
+set :linked_dirs, %w{bin log tmp/pids tmp/cache tmp/sockets vendor/bundle public/system}
 
 # Default value for default_env is {}
 # set :default_env, {}
