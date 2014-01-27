@@ -2,7 +2,10 @@
   $scope.logs = []
   $scope.currentResultPage = 0
   $scope.results = []
-  $scope.form
+  $scope.form = {
+    title:    ''
+    abstract: ''
+  }
 
   $scope.pagesCount = ->
     count = Math.floor($scope.results.length/5)
@@ -21,4 +24,8 @@
     Analyzer.selectPair $scope.form.title, $scope.form.abstract, ids[0], ids[1], ->
       $scope.logs.push "Done!"
       $scope.$apply()
+
+  $scope.clearFields = ->
+    $scope.form.title = ''
+    $scope.form.abstract = ''
 ]

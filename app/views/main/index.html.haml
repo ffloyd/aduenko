@@ -7,11 +7,13 @@
         %form(role="form" ng-submit="processForm(form.title, form.abstract)")
           .form-group
             %label(for="title") Title:
-            %input.form-control(type="text" name="title" ng-model="form.title")
+            %input.form-control(type="text" name="title" ng-model="form.title" required)
           .form-group
             %label(for="abstract") Abstract:
-            %textarea.form-control(name="abstract" rows="10" ng-model="form.content")
+            %textarea.form-control(name="abstract" rows="10" ng-model="form.abstract" autosize required)
           %button.btn.btn-primary.pull-right(type="submit") Search
+          %span.pull-right &nbsp; &nbsp;
+          %a.btn.btn-default.pull-right(ng-click="clearFields()") Clear
   .col-md-6
     .panel.panel-default
       .panel-heading
