@@ -30,7 +30,7 @@
               .col-md-2
                 %button.btn.btn-xs.btn-default.pull-right.clearfix(ng-click="selectResult(result.ids)") Select
       .panel-footer.with-floating-xs-btns
-        %button.btn.btn-xs.btn-default(ng-hide="currentResultPage == 0" ng-click="currentResultPage = currentResultPage - 1") &lt; Prev
+        %button.btn.btn-xs.btn-default(ng-hide="currentResultPage == 0" ng-click="currentResultPage = currentResultPage - 1") &lt; Previous
         %button.btn.btn-xs.btn-default.pull-right(ng-hide="currentResultPage >= pagesCount() - 1" ng-click="currentResultPage = currentResultPage + 1") Next &gt;
     .panel.panel-default
       .panel-heading
