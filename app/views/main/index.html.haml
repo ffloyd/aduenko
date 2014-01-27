@@ -25,8 +25,11 @@
           %li.list-group-item.no-external-borders(ng-repeat="result in results | page:5:currentResultPage")
             .row
               .col-md-10
+                %b Area:
                 {{result.text[0]}}
-                %i ({{result.text[1]}})
+                %br
+                %b Stream:
+                {{result.text[1]}}
               .col-md-2
                 %button.btn.btn-xs.btn-default.pull-right.clearfix(ng-click="selectResult(result.ids)") Select
       .panel-footer.with-floating-xs-btns
