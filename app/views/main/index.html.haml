@@ -18,8 +18,8 @@
     .panel.panel-default
       .panel-heading
         %h3.panel-title
-          Results &nbsp;
-          %span(ng-hide="pagesCount() == 0")({{currentResultPage + 1}}/{{pagesCount()}})
+          Search results
+          %span(ng-hide="pagesCount() == 0")(page {{currentResultPage + 1}} of {{pagesCount()}})
       .panel-body.no-padding
         %ul.list-group.no-margin
           %li.list-group-item.no-external-borders(ng-repeat="result in results | page:5:currentResultPage")
