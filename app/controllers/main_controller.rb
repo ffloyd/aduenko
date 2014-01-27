@@ -5,7 +5,7 @@ class MainController < ApplicationController
   def process_text
     data = nil
 
-    IO.popen "#{Rails.root}/bin/tool", "r+" do |io|
+    IO.popen ENV['TOOL'], "r+" do |io|
       io.write "#{params[:title]}###{params[:abstract]}"
       io.close_write
       data = io.read
@@ -26,7 +26,7 @@ class MainController < ApplicationController
   end
 
   def save_result
-    IO.popen "#{Rails.root}/bin/tool --result", "r+" do |io|
+    IO.popen "#{ENV['TOOL']} --result", "r+" do |io|
       io.write "#{params[:title]}###{params[:abstarct]}###{params[:area_id]} #{params[:stream_id]}"
       io.close_write
     end
