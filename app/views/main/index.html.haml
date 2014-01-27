@@ -22,7 +22,7 @@
           %span(ng-hide="pagesCount() == 0")(page {{currentResultPage + 1}} of {{pagesCount()}})
       .panel-body.no-padding
         %ul.list-group.no-margin
-          %li.list-group-item.no-external-borders(ng-repeat="result in results | page:5:currentResultPage")
+          %li.list-group-item.no-external-borders(ng-repeat="result in results | page:10:currentResultPage")
             .row
               .col-md-10
                 %b Area:

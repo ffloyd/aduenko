@@ -8,8 +8,8 @@
   }
 
   $scope.pagesCount = ->
-    count = Math.floor($scope.results.length/5)
-    count += 1 if $scope.results.length % 5 > 0
+    count = Math.floor($scope.results.length/10)
+    count += 1 if $scope.results.length % 10 > 0
     count
 
   $scope.processForm = (title, abstract) ->
