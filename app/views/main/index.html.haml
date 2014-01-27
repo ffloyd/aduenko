@@ -4,13 +4,13 @@
       .panel-heading
         %h3.panel-title Paste title and abstract here
       .panel-body
-        %form(role="form" ng-submit="processForm(form.title, form.content)")
+        %form(role="form" ng-submit="processForm(form.title, form.abstract)")
           .form-group
             %label(for="title") Title:
             %input.form-control(type="text" name="title" ng-model="form.title")
           .form-group
-            %label(for="content") Content:
-            %textarea.form-control(name="content" rows="10" ng-model="form.content")
+            %label(for="abstract") Abstract:
+            %textarea.form-control(name="abstract" rows="10" ng-model="form.content")
           %button.btn.btn-primary.pull-right(type="submit") Submit
   .col-md-6
     .panel.panel-default

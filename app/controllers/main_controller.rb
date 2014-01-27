@@ -6,7 +6,7 @@ class MainController < ApplicationController
     data = nil
 
     IO.popen "#{Rails.root}/bin/tool", "r+" do |io|
-      io.write "#{params[:title]}###{params[:content]}"
+      io.write "#{params[:title]}###{params[:abstract]}"
       io.close_write
       data = io.read
     end
@@ -27,7 +27,7 @@ class MainController < ApplicationController
 
   def save_result
     IO.popen "#{Rails.root}/bin/tool --result", "r+" do |io|
-      io.write "#{params[:title]}###{params[:content]}###{params[:area_id]} #{params[:stream_id]}"
+      io.write "#{params[:title]}###{params[:abstarct]}###{params[:area_id]} #{params[:stream_id]}"
       io.close_write
     end
 
