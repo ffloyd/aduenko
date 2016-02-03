@@ -5,7 +5,7 @@
 # something that quacks like a hash can be used to set
 # extended properties on the server.
 set :user, 'aduenko'
-set :server_name, '95.85.31.11'
+set :server_name, '82.196.6.163'
 server  fetch(:server_name),
         user: fetch(:user),
         roles: %w{web app db}
