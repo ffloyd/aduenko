@@ -1,5 +1,5 @@
 # config valid only for Capistrano 3.1
-lock '3.1.0'
+lock '3.4.0'
 
 SSHKit.config.command_map[:whenever] = "bundle exec whenever"
 
